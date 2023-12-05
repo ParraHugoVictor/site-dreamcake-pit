@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <title>Dream Cupcake</title>
+</head>
+
+<body>
+    <header>
+        <div class="bloco1">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="">
+            </div>
+
+            <div class="nome">
+                <img src="imagens/nome.png" alt="">
+            </div>
+
+            <a href="carrinho.html"><h5>Carrinho</h5><i class="fa-solid fa-cart-shopping" style="color: #ff0095;"></i></a>
+        </div>
+
+        <div class="cabecalho-link">
+            <li>
+                <a href="index.html">Inicio</a>
+            </li>
+
+            <li>
+                <a href="sobre.html">Sobre</a>
+            </li>
+
+            <li>
+                <a href="localizacao.html">Localização</a>
+            </li>
+
+            <a href="revenda.html"><button>SEJA REVENDEDOR!</button></a>
+
+        </div>
+
+    </header>
+
+    <div class="background">
+        <div class="carrinho">
+            <div class="cabecalho-carrinho">
+                <button>
+                    <i class="bx bx-chevron-left"></i>
+                </button>
+                <h3>Meu Carrinho</h3>
+            </div>
+
+            <ul>
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/cup1.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Cupcake Morango</h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>15 min</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$5,00</p>
+                            <div class="contador">
+                                <button id="menos" class="bx bx-minus"></button>
+                                <span id="quantidade">0</span>
+                                <button id="mais" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+              
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/cup2.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Cupcake Red Velvet</h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>15 min</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$5,00</p>
+                            <div class="contador">
+                                <button id="menos2" class="bx bx-minus"></button>
+                                <span id="quantidade2">0</span>
+                                <button id="mais2" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+               
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/cup3.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Cupcake Oreo</h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>15 min</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$5,00</p>
+                            <div class="contador">
+                                <button id="menos3" class="bx bx-minus"></button>
+                                <span id="quantidade3">0</span>
+                                <button id="mais3" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+              
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/bolo1.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Bolo KitKat</h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>1 h</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$100,00</p>
+                            <div class="contador">
+                                <button id="menos4" class="bx bx-minus"></button>
+                                <span id="quantidade4">0</span>
+                                <button id="mais4" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/bolo2.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Bolo Leite Ninho</h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>1 h</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$100,00</p>
+                            <div class="contador">
+                                <button id="menos5" class="bx bx-minus"></button>
+                                <span id="quantidade5">0</span>
+                                <button id="mais5" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                
+                <li class="carrinho-item">
+                    <div class="imagem">
+                        <img src="imagens/bolo3.jpg">
+                    </div>
+                    <div class="info">
+                        <h4>Bolo Red Velvet </h4>
+                        <div class="detalhes">
+                            <div class="status">
+                                <i class="bx bxs-timer"></i>
+                                <span>1 h</span>
+                            </div>
+                            <div class="status">
+                                <i class="bx bxs-package"></i>
+                                <span>Pronto</span>
+                            </div>
+                        </div>
+                        <div class="preco">
+                            <p>R$100,00</p>
+                            <div class="contador">
+                                <button id="menos6" class="bx bx-minus"></button>
+                                <span id="quantidade6">0</span>
+                                <button id="mais6" class="bx bx-plus"></button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="total">
+            <h5>DESCONTO 10%
+                <br>
+                <span id="desconto">(Compras acima de R$200,00)</span>
+            </h5>
+            <h3>TOTAL = R$<span id="total">0</span>,00</h3>
+            <h3>SUBTOTAL = R$<span id="sub">0</span>,00</h3>
+
+            <button type="button" name="comprar" id="comprar">COMPRAR</button>
+        </div>
+    </div>
+
+    <footer>
+        © Copyright 2023-2023 - Victor Hugo Parra
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
